@@ -308,14 +308,11 @@ h3 {
 }
 
 .pass-section {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(220px, 280px);
-  gap: clamp(32px, 7vw, 76px);
-  align-items: center;
+  max-width: 840px;
 }
 
 .pass-copy {
-  max-width: 720px;
+  max-width: 760px;
 }
 
 .pass-list {
@@ -352,18 +349,6 @@ h3 {
   background: var(--gold);
 }
 
-.pass-shot {
-  justify-self: center;
-  width: min(100%, 280px);
-  margin: 0;
-  overflow: hidden;
-  border: 1px solid var(--line);
-  border-radius: 18px;
-  background: rgba(255, 247, 232, 0.05);
-  box-shadow: 0 26px 80px rgba(0, 0, 0, 0.38);
-}
-
-.pass-shot img,
 .phone-grid img {
   display: block;
   width: 100%;
@@ -372,9 +357,9 @@ h3 {
 
 .phone-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 184px));
+  grid-template-columns: repeat(auto-fit, minmax(130px, 158px));
   justify-content: center;
-  gap: 14px;
+  gap: 12px;
 }
 
 .phone-grid figure {
@@ -384,14 +369,15 @@ h3 {
 }
 
 .phone-grid img {
-  aspect-ratio: 1320 / 2868;
+  aspect-ratio: 4 / 5;
   object-fit: cover;
   object-position: top;
 }
 
 figcaption {
-  padding: 14px 16px 16px;
+  padding: 12px 12px 14px;
   color: var(--ink);
+  font-size: 0.95rem;
   font-weight: 850;
 }
 
@@ -459,9 +445,6 @@ figcaption {
     grid-template-columns: 1fr 1fr;
   }
 
-  .pass-section {
-    grid-template-columns: 1fr;
-  }
 }
 
 @media (max-width: 600px) {
