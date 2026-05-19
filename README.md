@@ -11,3 +11,5 @@ Pages:
 - `support.html` - App Store support URL
 
 Public source repo: https://github.com/VirajRao10/driftd
+
+The app repo mirrors this site under `AppStoreSubmission/Website`. Keep both copies in sync when changing public website files.
