@@ -1,8 +1,8 @@
 # Driftd Website
 
-Static GitHub Pages site for Driftd.
+Static website for Driftd.
 
-Live site: https://virajrao10.github.io/driftd/
+Live site: https://driftd.xyz/
 
 Pages:
 

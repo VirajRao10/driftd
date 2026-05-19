@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Driftd - A quiet daily drift</title>
-  <meta name="description" content="Driftd is a calm one-touch arcade game about timing, orbiting, daily challenges, streaks, upgrades, and cozy precision.">
+  <title>Driftd - One-touch orbit arcade</title>
+  <meta name="description" content="Driftd is a calm one-touch arcade game for iPhone with daily challenges, streaks, loadouts, cosmetics, DriftPass rewards, and quick TestFlight beta runs.">
   <link rel="icon" href="assets/driftd-app-icon.png">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -16,36 +16,45 @@
     </a>
     <nav aria-label="Main navigation">
       <a href="#features">Features</a>
+      <a href="#driftpass">DriftPass</a>
+      <a href="#screenshots">Screens</a>
       <a href="privacy.html">Privacy</a>
       <a href="support.html">Support</a>
+      <a class="nav-cta" href="https://testflight.apple.com/join/kvmJxUBj">Download Beta</a>
     </nav>
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true">
+        <img src="screenshots/gameplay.png" alt="">
+      </div>
       <div class="hero-copy">
         <img class="app-icon" src="assets/driftd-app-icon.png" alt="Driftd app icon" width="104" height="104">
-        <p class="eyebrow">One-touch orbit arcade</p>
-        <h1>Driftd</h1>
-        <p class="lede">Hold to aim, release to drift, and chain calm orbits through quick daily runs.</p>
+        <p class="eyebrow">Now in TestFlight beta</p>
+        <h1 id="hero-title">Driftd</h1>
+        <p class="lede">A one-touch orbit arcade game for quick daily runs, calm timing, and tiny streak rituals.</p>
         <div class="actions">
-          <a class="button primary" href="#screenshots">View screenshots</a>
-          <a class="button secondary" href="support.html">Get support</a>
+          <a class="button primary" href="https://testflight.apple.com/join/kvmJxUBj">Download Beta</a>
+          <a class="button secondary" href="#screenshots">View screenshots</a>
         </div>
-      </div>
-      <div class="hero-media" aria-label="Driftd gameplay screenshot">
-        <img src="screenshots/gameplay.png" alt="Driftd gameplay showing orbit nodes, the player orb, score, combo, credits, and pause controls">
+        <div class="hero-points" aria-label="Driftd highlights">
+          <span>Daily drift challenges</span>
+          <span>Two-modifier loadouts</span>
+          <span>DriftPass cosmetics</span>
+        </div>
       </div>
     </section>
 
     <section id="features" class="section">
       <div class="section-heading">
         <p class="eyebrow">Built for small daily sessions</p>
-        <h2>Simple rules, satisfying timing</h2>
+        <h2>Simple rules, sharp little decisions</h2>
+        <p>Driftd keeps the controls quiet and lets the run build through timing, modifiers, rewards, and the choice to risk one more orbit.</p>
       </div>
       <div class="feature-grid">
         <article>
-          <h3>Orbit and release</h3>
+          <h3>Hold, aim, release</h3>
           <p>Hold to reveal the aim guide, release along the tangent, and catch the next node before the drift slips away.</p>
         </article>
         <article>
@@ -53,8 +62,8 @@
           <p>Fresh goals and gameplay twists give each day a small ritual: perfects, combos, survival, Credits, or calm runs.</p>
         </article>
         <article>
-          <h3>Progression</h3>
-          <p>Earn XP, Credits, achievements, streak glow, constellation rewards, and optional Premium DriftPass cosmetics as your best runs get cleaner.</p>
+          <h3>DriftPass</h3>
+          <p>Level up through play to unlock power-ups and cosmetics, with optional Premium DriftPass rewards for subscribers.</p>
         </article>
         <article>
           <h3>Loadouts</h3>
@@ -71,10 +80,28 @@
       </div>
     </section>
 
+    <section id="driftpass" class="section pass-section">
+      <div class="pass-copy">
+        <p class="eyebrow">DriftPass</p>
+        <h2>A reward track for better daily runs</h2>
+        <p>DriftPass gives each level a little more shape: Credits, power-ups, orb skins, trails, and themes earned through regular play. Premium DriftPass adds subscription-only cosmetics while the subscription is active.</p>
+        <ul class="pass-list">
+          <li>Free and Premium reward tracks</li>
+          <li>Cosmetics tied to level progress</li>
+          <li>Premium rewards managed through Apple subscriptions</li>
+        </ul>
+        <a class="button secondary" href="https://testflight.apple.com/join/kvmJxUBj">Try the beta</a>
+      </div>
+      <figure class="pass-shot">
+        <img src="screenshots/driftpass.png" alt="Driftd DriftPass screen showing free and premium reward tracks with subscription cosmetics">
+        <figcaption>Premium DriftPass rewards</figcaption>
+      </figure>
+    </section>
+
     <section id="screenshots" class="section screenshots">
       <div class="section-heading">
         <p class="eyebrow">Screens</p>
-        <h2>Home, play, shop, and stats</h2>
+        <h2>Recent screens from the beta</h2>
       </div>
       <div class="phone-grid">
         <figure>
@@ -84,6 +111,10 @@
         <figure>
           <img src="screenshots/gameplay.png" alt="Driftd gameplay with score, combo, credits, orbit nodes, and player orb">
           <figcaption>Orbit gameplay</figcaption>
+        </figure>
+        <figure>
+          <img src="screenshots/driftpass.png" alt="Driftd DriftPass screen with Premium subscription rewards and locked cosmetics">
+          <figcaption>DriftPass</figcaption>
         </figure>
         <figure>
           <img src="screenshots/shop.png" alt="Driftd shop screen with run loadout, daily items, power-ups, and cosmetics">
@@ -103,6 +134,7 @@
       <a href="privacy.html">Privacy Policy</a>
       <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use</a>
       <a href="support.html">Support</a>
+      <a href="https://testflight.apple.com/join/kvmJxUBj">Download Beta</a>
     </div>
   </footer>
 </body>
