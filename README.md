@@ -7,6 +7,7 @@ Live site: https://driftd.xyz/
 Pages:
 
 - `index.html` - marketing website
+- `gift/index.html` - gift code landing page
 - `privacy.html` - App Store privacy policy URL
 - `support.html` - App Store support URL
 
